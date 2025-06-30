@@ -3,16 +3,16 @@
 ## Overview
 This repository is designed in the following structure.  
 
-/HighOrderStefan_CDC2025. 
+/HighOrderStefan_CDC2025\
 │── src/                # Source code\
-│   ├── main.py         # Main execution script\
-│   ├── solve.py        # Numerical solver\
-│   ├── model.py        # Stefan model\
-│   ├── control.py      # Control logic\
-│   ├── check.py        # Conditions' satisfaction\
-│   ├── parameters.py   # Used parameters\
-│   ├── plot.py         # Visualization\
+│   │── main.py         # Main execution script\
+│   │── solve.py        # Numerical solver\
+│   │── model.py        # Stefan model\
+│   │── control.py      # Control logic\
+│   │── check.py        # Conditions' satisfaction\
+│   │── parameters.py   # Used parameters\
+│   │── plot.py         # Visualization\
 │── config/             # Configuration files\
-│   ├── parameters.yaml # Parameters\
+│   │── parameters.yaml # Parameters\
 │── README.md.          # Overview\
 │── requirements.txt    # Dependencies\
