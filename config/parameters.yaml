@@ -1,0 +1,22 @@
+physical:
+  rho: 6570.0    # Density [kg/m^3]
+  Hf: 111961.0   # Latent heat of fusion [J/kg]
+  kc: 116.0      # Thermal conductivity [W/m/K]
+  cp: 389.5687   # Specific heat capacity [J/kg/K]
+  Tm: 420.0        # Melting temperature
+  epsilon: 1   # Time response of interface acceleration [s]
+
+simulation:
+  N: 20          # Spatial discretization number
+  min: 100        # Time [min]
+  dt: 0.1        # Time step [s]
+
+initial:
+  s_0: 0.1       # Initial position [m]
+  v_0: 0.0       # Initial velocity [m/s]
+  u_0_max: 10.0     # Initial temperature [K]
+
+control:
+  c_1: 0.2         # Control gain [1/s]
+  c_2: 0.2       # Control gain [1/s]
+  sr: 0.2        # Setpoint [m]
