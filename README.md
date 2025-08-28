@@ -112,11 +112,11 @@ control:
   c_2: 0.2       # Control gain [1/s]
   sr: 0.2        # Setpoint [m]
 ```
-
+<!-- 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or find any bugs.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the `LICENSE` file for more details. -->
